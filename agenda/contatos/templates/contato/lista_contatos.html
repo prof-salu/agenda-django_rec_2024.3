@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Agenda 2024.3
+{% endblock %}
+
+{% block content %}
+<h2>Meus contatos</h2>
+
+<div>
+    <ul>
+        {% for contato in contatos %}
+            <li><a href="#">{{contato}}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
+

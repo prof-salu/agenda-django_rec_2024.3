@@ -1,0 +1,1 @@
+from contatos.models import Contato
